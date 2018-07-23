@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analitica y Gestion</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--Style-->
+    <link rel="stylesheet" type="text/css" href="CSS/contactStyle.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <table class="tableContact">
+                <tr>
+                    <td id="colInfo">
+                        <h2 id="contactTitle">Contácto</h2>
+                        <p class="categoryName">Gerente general</p>
+                        <p class="categoryInfo">Ingeniero Mario Germán Barbosa</p>
+                        <p class="categoryName">Correo electrónico</p>
+                        <p class="categoryInfo">mario.barbosa@analiticaygestion.com</p>
+                        <p class="categoryName">Dirección</p>
+                        <p class="categoryInfo">Calle 124 No. 7 - 35 Oficina 701</p>
+                        <p class="categoryName">Teléfono móvil</p>
+                        <p class="categoryInfo">+57 300 2696108</p>
+                        <p class="categoryName">Teleéfono Fijo</p>
+                        <p class="categoryInfo">+57 7053183</p>
+                        <button id="messageButton">Escribir Mensaje</button>
+                    </td>
+                    <td id="colImg">
+                        <div id="map"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--Google Map API-->
+    <script>
+        function myMap() {
+          var myCenter = new google.maps.LatLng(4.699470,-74.029395);
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {center: myCenter, zoom: 15};
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          var marker = new google.maps.Marker({position:myCenter});
+          marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJiLrQmQYp6xKr-oWTBVEcWyCINdqlags&callback=myMap"></script>
+    <!--JQuery and JavaScript-->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
