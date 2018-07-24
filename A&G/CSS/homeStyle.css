@@ -116,6 +116,7 @@ hr {
     margin: 0;
     padding-left: 25%;
     padding-right: 10%;
+    padding-top: 15%;
     font-size: 78px;
     font-family: 'Raleway', sans-serif;
 }
@@ -125,7 +126,7 @@ hr {
 }
 
 #gearIntroImg {
-    padding-top: 0%;
+    padding-top: 10%;
     width: 70%;
     margin: 0;
 }
@@ -210,6 +211,8 @@ hr {
 }
 
 .gearButtons {
+    padding-left: 30%;
+    padding-top: 20%;
     background: none;
     border: none;
 }
