@@ -9,7 +9,7 @@
 }
 
 #textTable {
-    border-top: 2px solid black;
+    border-top: 2px solid #42a85c;
     margin: auto;
     width: 90%;
 }
@@ -20,7 +20,7 @@
 }
 
 h2 {
-    color: black;
+    color: #42a85c;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
 }
@@ -32,5 +32,5 @@ span {
 p {
     text-align: justify;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
