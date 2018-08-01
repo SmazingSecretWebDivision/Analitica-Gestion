@@ -52,6 +52,12 @@ function rotateAnimation(el,speed,time,dir){
 		currentDegrees = 359;
 	}
 	
+	if(currentDegrees == time && degrees == 1)
+	{
+		degrees = 360 - time;
+		currentDegrees = 360;
+	}
+	
 	if(degrees == currentDegrees+time || degrees == currentDegrees-time)
 	{
 		for (var i = 0; i < timeouts.length; i++)
@@ -62,8 +68,4 @@ function rotateAnimation(el,speed,time,dir){
 		currentDegrees = degrees;
 		timeouts = [];
 	}
-	
-	
-	
-	
 }
