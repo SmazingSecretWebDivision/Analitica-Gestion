@@ -55,7 +55,7 @@
                         <p class="categoryInfo">Calle 124 No. 7 - 35 Oficina 701</p>
                         <p class="categoryName">Teléfono móvil</p>
                         <p class="categoryInfo">+57 300 2696108</p>
-                        <p class="categoryName">Teleéfono Fijo</p>
+                        <p class="categoryName">Teléfono Fijo</p>
                         <p class="categoryInfo">+57 7053183</p>
                         <button id="messageButton">Escribir Mensaje</button>
                     </td>
@@ -65,6 +65,28 @@
                 </tr>
             </table>
         </div>
+		<div class="container" id="contactenos">
+		  <div style="text-align:center">
+			<h2>Contáctenos</h2>
+		  </div>
+		  <div class="row">
+			<div class="column">
+			  <form action="/action_page.php">
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Su nombre...">
+				<label for="cellp">Celular</label>
+				<input type="text" id="cellp" name="cellp" placeholder="Su celular...">
+				<label for="country">Email</label>
+				<input type="text" id="email" name="email" placeholder="Su email...">
+				<label for="asunto">Asunto</label>
+				<input type="text" id="asunto" name="asunto" placeholder="Asunto...">
+				<label for="msg">Mensaje</label>
+				<textarea id="msg" name="msg" placeholder="Escriba su mensaje..." style="height:170px"></textarea>
+				<input type="submit" value="Enviar">
+			  </form>
+			</div>
+		  </div>
+		</div>
     </div>
     <!--Google Map API-->
     <script>
@@ -85,6 +107,8 @@
 	  src="https://code.jquery.com/jquery-3.3.1.js"
 	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	  crossorigin="anonymous"></script>
+	<!--Toggle Contact Form-->
+    <script type="text/javascript" src="JS/contactAppear.js"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
