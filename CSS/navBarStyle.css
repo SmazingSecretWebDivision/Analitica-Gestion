@@ -9,17 +9,17 @@
 #optionsButton {
     background: none;
     border: none;
-    padding-top: 120%;
-    padding-left: 120%;
+    padding-top: 100%;
+    padding-left: 110%;
     color: black;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 #logo {
     padding-top: 60%;
-    padding-right: 80%;
-    font-size: 20px;
+    padding-right: 90%;
+    font-size: 2.5vw;
     font-family: 'Raleway', sans-serif;
 }
 /*Side Nav Bar---------------------------------------------------------------*/
@@ -33,13 +33,13 @@
     background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 5%;
 }
 
 .sidenav a {
     padding-top: 10%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2vw;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -54,16 +54,16 @@
     background: none;
     border: none;
     position: absolute;
-    top: 30px;
-    right: 20px;
-    font-size: 25px;
-    margin-left: 50px;
+    top: 7%;
+    right: 8%;
+    font-size: 2vw;
+    margin-left: 10%;
 }
 
 .sidenav h2 {
-    margin-bottom: 5px;
+    margin-bottom: 1%;
     color: white;
-    padding-top: 20px;
+    padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
     font-size: 45px;
@@ -71,8 +71,8 @@
 }
 
 #navBarLine {
-    border: 1px solid white;
-    width: 100px;
+    border: 1px solid black;
+    width: 40%;
 }
 
 @media screen and (max-height: 450px) {

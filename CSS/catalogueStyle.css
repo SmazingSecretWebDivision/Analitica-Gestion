@@ -1,27 +1,29 @@
-#infoCol {
-    float: left;
-    width: 50%;
-}
-
-#divRow {
+.catalogueRow {
+    margin: 0;
+    padding-top: 8%;
     width: 100%;
-    height: 120px;
+    height: 90vh;
 }
 
-#textTable {
-    border-top: 2px solid #42a85c;
-    margin: auto;
-    width: 90%;
-}
-
-#imageBigData { 
-    width: 100%;
+.catalogueImage {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #42a85c;
+    width: 100%;
+}
+
+.divider {
+    padding-bottom: 25%;
 }
 
 h2 {
     color: #42a85c;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -31,6 +33,6 @@ span {
 
 p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.3vw;
     font-family: 'Open Sans', sans-serif;
 }
