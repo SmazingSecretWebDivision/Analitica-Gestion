@@ -4,6 +4,10 @@ body {
     color: black;
 }
 
+.home{
+    overflow: hidden;
+}
+
 .homePage {
     width: 100%;
     height: 100vh;
@@ -62,6 +66,7 @@ h1 {
 #mainText {
     font-size: 2.3vw;
     margin: 0;
+    margin-top: 1%;
     font-family: 'Open Sans', sans-serif;
 }
 /*Screen2---------------------------------------------*/
@@ -181,43 +186,40 @@ hr {
     border: none;
 	outline:none;
 }
-
 /*Screen8---------------------------------------------*/
-.infoScreen a:hover{
-    text-decoration: none;
-    color: white;
-}
-
 #infoTitle {
-    padding-top: 2%;
+    padding-top: 4%;
+    color: white;
     font-size: 3vw;
     font-family: 'Raleway', sans-serif;
 }
 
-.infoScreen p {
-    font-family: 'Open Sans', sans-serif;
+.blackPage p {
+    color: white;
+    font-size: 1.5vw;
 }
 
-.socialButton {
-    margin-top: 2%;
+.blackPage a {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-right: 2%;
     color: white;
     font-size: 2vw;
-    padding-left: 2%;
-    padding-right: 1%;
-    background: none;
-    border: none;
 }
 
-#contactButton {
+.blackPage button {
     background-color: white;
-    border: 3px solid white;
-    color: black;
-    margin-top: 3%;
-    text-align: center;
-    font-size: 1.5vw;
-    font-family: 'Raleway', sans-serif;
+    border-radius: 5%;
 }
 
-#contactButton a:hover {
-    text-decoration: underline;
+.blackPage button a{
+    font-size: 1.5vw;
+    background-color: white;
+    border-radius: 5%;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.blackPage button a:hover{
+    font-size: 1.7vw;
 }
